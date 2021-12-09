@@ -1,0 +1,1 @@
+"E:\迅雷下载\微信web开发者工具\cli.bat" cloud functions deploy --e cloud1-2gic3h5e69c16e30 --n quickstartFunctions --r --project "C:\Users\HP\Desktop\flipped" --report_first --report
