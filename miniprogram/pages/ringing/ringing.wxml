@@ -1,0 +1,18 @@
+<!--pages/ringing/ringing.wxml-->
+<!-- <text>pages/ringing/ringing.wxml</text> -->
+<view class="content">
+	<!--pics文件夹下的background.jpg文件-->
+	<image class='background' src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/ringing/sky.png?sign=4205ef5bd6d0781ebc71108096b0f106&t=1639625679"></image>
+	<!--页面其它部分-->
+  <image src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/ringing/font.png?sign=e2d6dd4ea2b0f2806490a708681b4b57&t=1639625772" class="font_background"></image>
+</view>
+
+
+<view>
+  <image src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/ringing/background.png?sign=c0bcbd077f5b3b44f60ef1d348b5ff6e&t=1639625745" class="font_background2"></image>
+  <text class='say'>说点什么好呢?</text>
+</view>
+
+<image src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/ringing/iconding.gif?sign=6e3081f778068a8459b90d01100dfed8&t=1639625718" class="font_background3"></image>
+
+

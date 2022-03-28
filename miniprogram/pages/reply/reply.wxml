@@ -1,0 +1,14 @@
+<!--pages/reply/reply.wxml-->
+<view>
+<image src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/reply/bg_reply.png?sign=44c736149c795597fe445c48c5b2a49c&t=1639643561" class="font_background"></image>
+</view>
+
+<view class='textarea-count' >
+<textarea placeholder='回复消息' bindinput="getWords" maxlength='{{maxTextLen}}' class="a"></textarea>
+<view class='text-count-display f f-end'>{{textLen}}/{{maxTextLen}}</view>
+</view>
+<view class="button">
+  <button class='btn1' style="width: 25%;" bindtap="closeToreceive_t">关闭</button>
+  <button class='btn2' style="width: 25%;" bindtap="closeToreceive_t">发送</button>
+</view>
+

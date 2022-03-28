@@ -1,3 +1,6 @@
 {
-  "navigationBarTitleText": "我的"
+  "navigationBarBackgroundColor": "#008EFF",
+  "navigationBarTitleText": "我的",
+  "navigationBarTextStyle": "white",
+  "disableScroll": true
 }

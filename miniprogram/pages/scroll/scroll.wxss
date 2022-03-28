@@ -1,0 +1,12 @@
+page{
+  overflow: hidden;
+  height: 100%;
+}
+.page_index{
+  height: 100%;
+}
+.container{
+
+  height: 100%;
+  overflow-y: scroll;
+}

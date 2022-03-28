@@ -1,139 +1,43 @@
-<scroll-view scroll-y style='height:100vh;'>
-  <view class='top'>
-    <!-- <navigator url="/pages/bindPhone/index" class='img'> 
-    </navigator> -->
-    <view>
-      <view class='img'><open-data type="userAvatarUrl"></open-data></view>
-      <view class='text'><open-data type="userNickName"></open-data>
-      </view>
+<view class="my">
+  <view class="top">
+    <image class="top_bg" src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/my/my_bg.png?sign=90cc44248d7590e6b68851050e0cbd81&t=1639211718"></image>
+    <view class="top_middle">
+      <image src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/my/middle_bg.png?sign=7422438d2bd6c49ea5c2e823d8637f89&t=1639211634" class="middle_bg"></image>
+        <view class="user_info">
+          <view class='middlei_img'><open-data type="userAvatarUrl"></open-data></view>
+          <view class='middlei_name'><open-data type="userNickName"></open-data></view>
+        </view>
+    </view>
+    <view class="down_middle">
+      <image src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/my/middle_bg02.png?sign=cb591012cb6f666f5e967b5d132f904a&t=1639211679" class="middle_bg02"></image>
+      <cover-image src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/my/bell.png?sign=23ddc0ec6b03e00b8552cfe68dba18d7&t=1639211588" class="middle_bell"></cover-image>
+      <text class="middle_count">{{msg}}</text>
+      <image src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/my/bell_count.png?sign=053df9f5cb64ecbbce67fdf87f562cec&t=1639211593" class="bell_count"></image>
+      <text class="count_text">5</text>
     </view>
   </view>
-  <navigator url="/pages/pageD/pages/cart/index" class='item'>
-    <view class="tubiao">
-      <image src="/img/gouwuche.jpg" mode="aspectFit"></image>
-    </view>
-    <view class='left'>
-      我的订单
-    </view>
-    <view class='right'>
-      <text>查看全部订单</text>
-    </view>
-    <view>
-      <image class="jiantou" src='/img/my_order.jpg'></image>
-    </view>
-  </navigator>
-  <view class='icon'>
-    <navigator url="/pages/pageD/pages/or/index?type=1" hover-class="none" >
-      <button formType="submit" type="primary" size="default">
-        <image src='/img/pending_payment.jpg' mode="aspectFit"></image>
-        <text>待付款</text>
-      </button>
-    </navigator>
-    <navigator url="/pages/pageD/pages/or/index?type=2" hover-class="none" >
-    <button formType="submit" type="primary" size="default">
-        <image src='/img/pending_delivery.jpg' mode="aspectFit"></image>
-        <text>待发货</text>
-    </button>
-    </navigator>
-    <navigator url="/pages/pageD/pages/or/index?type=3" hover-class="none" >
-    <button formType="submit" type="primary" size="default">
-        <image src='/img/already_shipped.jpg' mode="aspectFit"></image>
-        <text>已发货</text>
-    </button>
-    </navigator>
-    <navigator url="/pages/pageD/pages/or/index?type=4" hover-class="none" >
-    <button formType="submit" type="primary" size="default">
-        <image src='/img/completed.jpg' mode="aspectFit"></image>
-        <text>已完成</text>
-    </button>
-    </navigator>
+  <view class="bottom">
+      <navigator url="../receive_t/receive_t" open-type="switchTab" class='item1'>
+        <image class="icon1_img" src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/my/message.png?sign=3e26770fb5d85c324cab1decf1b4f67d&t=1639211813">
+        </image>
+        <view class='text1'>
+          我收到的信息
+        </view>
+        <image class="right1_img" src='https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/my/right.png?sign=ce28183ce7a15bebb2662b0d51a24b31&t=1639211746'></image>
+      </navigator>
+      <navigator url="#" class='item2'>
+        <image class="icon2_img" src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/my/suggestion.png?sign=e6778a80c065aef3388b3436b9c0d1e7&t=1639211762"></image>
+        <view class='text2'>
+          提交意见
+        </view>
+        <image class="right2_img" src='https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/my/right.png?sign=ce28183ce7a15bebb2662b0d51a24b31&t=1639211746' ></image>
+      </navigator>
+      <navigator url="../about/about" class='item3'>
+        <image class="icon3_img" src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/my/about.png?sign=839146dbc0baea7e4b760d1432aa61da&t=1639211563"></image>
+        <view class='text3'>
+          关于
+        </view>
+        <image class="right3_img" src='https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/my/right.png?sign=ce28183ce7a15bebb2662b0d51a24b31&t=1639211746'></image>
+      </navigator>
   </view>
-  <navigator url="/pages/pageB/pages/coupon/index" class='item'>
-    <view class="tubiao">
-      <image src="/img/youhuijuan.jpg" mode="aspectFit"></image>
-    </view>
-    <view class='left'>
-      我的优惠券
-    </view>
-    <view>
-      <image class="jiantou" src='/img/my_order.jpg'></image>
-    </view>
-  </navigator>
-  <navigator url="/pages/pageB/pages/personinfo/index" class='item'>
-    <view class="tubiao">
-      <image src="/img/wo.jpg" mode="aspectFit"></image>
-    </view>
-    <view class='left'>
-      个人主页
-    </view>
-    <view>
-      <image class="jiantou" src='/img/my_order.jpg'></image>
-    </view>
-  </navigator>
-  <navigator url="/pages/pageB/pages/addressList/index" class='item'>
-    <view class="tubiao">
-      <image src="/img/dizhi.jpg" mode="aspectFit"></image>
-    </view>
-    <view class='left'>
-      地址管理
-    </view>
-    <view>
-      <image class="jiantou" src='/img/my_order.jpg'></image>
-    </view>
-  </navigator>
-  <navigator url="/pages/pageB/pages/coupon/index" class='item'>
-    <view class="tubiao">
-      <image src="/img/fabu.jpg" mode="aspectFit"></image>
-    </view>
-    <view class='left'>
-      我的发布
-    </view>
-    <view>
-      <image class="jiantou" src='/img/my_order.jpg'></image>
-    </view>
-  </navigator>
-  <!-- <navigator url="/pages/pageB/pages/collect/index" class='item'>
-    <view class="tubiao">
-      <image src="/img/shoucang.jpg" mode="aspectFit"></image>
-    </view>
-    <view class='left'>
-      我的收藏
-    </view>
-    <view>
-      <image class="jiantou" src='/img/my_order.jpg'></image>
-    </view>
-  </navigator> -->
-  <!-- <navigator url="/pages/coupon/index" class='item'>
-    <view class="tubiao">
-      <image src="/img/maichu.png" mode="aspectFit"></image>
-    </view>
-    <view class='left'>
-      我卖出的
-    </view>
-    <view>
-      <image class="jiantou" src='/img/my_order.png'></image>
-    </view>
-  </navigator>
-  <navigator url="/pages/coupon/index" class='item'>
-    <view class="tubiao">
-      <image src="/img/yimaidaoshangpin.png" mode="aspectFit"></image>
-    </view>
-    <view class='left'>
-      我买到的
-    </view>
-    <view>
-      <image class="jiantou" src='/img/my_order.png'></image>
-    </view>
-  </navigator> -->
-  <navigator url="/pages/pageD/pages/about/index" class='item'>
-    <view class="tubiao">
-      <image src="/img/guanyu(1).jpg" mode="aspectFit"></image>
-    </view>
-    <view class='left'>
-      关于
-    </view>
-    <view>
-      <image class="jiantou" src='/img/my_order.jpg'></image>
-    </view>
-  </navigator>
-</scroll-view>
+</view>

@@ -1,0 +1,90 @@
+<view class="content">
+	<image class='background' src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/infoin/info_bg.png?sign=43cc7ede264146fddc5b07f57bf77f15&t=1639626056"></image>
+  <image class="top_bg" src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/infoin/info_logo.png?sign=49e2aa585549f2e2d3a54b99b8ef0ee5&t=1639626068"></image>
+  <view class="login-container">
+    <view class="title">请选择您感兴趣的</view>
+    <view class="subtitle">freedom</view>
+    <!-- <view class="login-box">
+      <label style="font-size: 18px;">性别</label>
+      <radio-group style="display: inline;" class="radio-group" bindchange="radioChange">
+        <label class="radio" wx:for="{{items}}" wx:key="{{key}}">
+          <radio value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+        </label>
+      </radio-group>
+
+      <label style="font-size: 18px;display: block;padding-top: 8%;">出生年月</label>
+      <picker mode="date" fields="day" value="{{date}}" start="1900-01-01" end="2021-12-31" bindchange="getDateTime" class="select_born">
+        <view class="selectDate">
+            {{years}}年{{months}}月{{days}}日
+          <image class='select_img' src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/infoin/info_pull.png?sign=03da5ffefb1361c75a26213b92ec2961&t=1639388013" background-size="contain"/>
+        </view>
+      </picker>
+      <label style="font-size: 18px;">电话/微信</label>
+      <input placeholder="请填写您的电话/微信"/>
+      <label style="font-size: 18px;">兴趣爱好</label>
+      <input placeholder="请填写您的兴趣爱好"/>
+      <label style="font-size: 18px;">星座</label>
+      <view class='select_box'>
+        <view class='select' catchtap='selectTap1'>
+            <text class='select_text'>{{selectData[index]}}</text>
+            <image class='select_img {{selectShow1&&"select_img_rotate"}}' src='https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/infoin/info_pull.png?sign=03da5ffefb1361c75a26213b92ec2961&t=1639388013'  background-size="contain"></image> 
+        </view>
+        <view class='option_box' style='height:{{selectShow1?(selectData.length>5?325:selectData.length*50):0}}rpx;'>
+            <text class='option' wx:for='{{selectData}}' wx:key='this' data-index='{{index}}' catchtap='optionTap1'>{{item}}</text>
+        </view>
+      </view> -->
+      <!-- <button class="login-btn" style="background-color:green;">立即提交</button> -->
+    <!-- </view> -->
+    <!-- <view class="submit">立即提交</view> -->
+    <!-- <view class="btn">
+      <image class="sub_down" src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/infoin/down.png?sign=d80e9b1aabffc9376f44054ba635f145&t=1639626271"></image>
+    </view> -->
+    <!-- <view class="btn_sub">
+      <image class="sub_logo" src="../images/submit_logo.png" bindtap="submit"></image>
+    </view> -->
+    <!-- <view class="black">  
+    <image src="../images/blackpg.png" style="height: 1800rpx;width: 100%;"></image>
+    </view> -->
+
+    <!-- <view class="check">
+  <checkbox-group bindchange="HandelItemChange">
+    <checkbox class="checkbox" value="{{item.value}}" wx:for="{{list}}" wx:key="id">
+      {{item.name}}
+    </checkbox>
+  </checkbox-group> -->
+  <!-- <view>
+    选中的水果:{{checkedList}}
+  </view> -->
+<!-- </view> -->
+<!--pages/evaluatepage/evaluatepage.wxml-->
+
+<view class='container'>
+ <view class='evaluate_contant'>
+ <!--外层循环控制有几个评价条目 -->
+ <block wx:for='{{evaluate_contant}}' wx:key='' wx:for-index='idx'>
+ <view class='evaluate_item'>
+  <view class='evaluate_title'>{{item}}</view>
+
+  <!--星星评价 -->
+  <view class='evaluate_box'>
+  <!--内层循环展示每个评价条目的星星 -->
+  <block wx:for="{{stars}}" wx:key=''>
+  <image class="star-image" style="left: {{item*80}}rpx" src="{{scores[idx] > item ?(scores[idx]-item == 0.5?halfSrc:selectedSrc) : normalSrc}}">
+  <view class="item" style="left:0rpx" data-score="{{item + 0.5}}" data-idx='{{idx}}' bindtap="selectLeft"></view>
+  <view class="item" style="left:20rpx" data-score="{{item + 1}}" data-idx='{{idx}}' bindtap="selectRight"></view>
+  </image>
+  </block>
+  </view>
+
+ </view>
+ </block>
+
+ </view>
+ <view class="last">
+<button class='btn1' style="width: 60%;">关闭</button>
+<button class='btn2' style="width: 60%;">提交</button>
+</view>
+</view>
+
+  </view>
+</view>

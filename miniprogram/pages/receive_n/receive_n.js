@@ -1,4 +1,4 @@
-// pages/welcome/welcome.js
+// pages/receive_n/receive_n.js
 Page({
 
   /**

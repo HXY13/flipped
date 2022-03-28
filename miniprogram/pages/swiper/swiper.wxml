@@ -1,0 +1,44 @@
+<swiper indicator-dots="{{indicatorDots}}"  vertical="true" autoplay="{{autoplay}}">
+  <swiper-item class="swiper_start">
+    <view class="start">
+      <!-- <swiper class="swiper_box" indicator-dots="{{ indicatorDots }}" autoplay="{{ autoplay }}" current="{{ current }}" interval="{{ interval }}" duration="{{ duration }}" circular="{{ circular }}" bindchange="swiperchange"> -->
+            <!-- <swiper-item> -->
+      <view class="section div1 {{scrollindex==0?'active':''}}" >
+      <!-- <image src="../images/start.jpg"  class="slide-image" bindload="bindload"/> -->
+      <!-- <image src="../images/bg.jpg" class="bg"></image> -->
+        <view class="bg">
+          <view class="title">
+            <cover-image src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/start/down.gif?sign=63d5a745f75f1e19482f7d674f2bb723&t=1639362261" class="down"></cover-image>
+          </view>
+        </view>            
+      </view>
+
+      <!-- </swiper-item> -->
+    <!-- </swiper> -->
+    <!-- <image src="../images/start.jpg" class="img"></image> -->
+    </view>
+
+  </swiper-item>
+  <swiper-item class="swiper_login">
+    <view class="login-container">
+      <view class="login" wx:if="{{ !logged }}">
+        <view class="app-info">
+          <image class="app-logo" src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/login/logo.png?sign=a93282ab1d14ae0cff0b5838f36ed3bb&t=1639211902" />
+          <text class="app-name">正在登录中~</text>
+        </view>
+        <view class="alert">
+          <view class="alert-title">网页由该小程序开发，请确认授权以下信息</view>
+          <view class="alert-desc">
+            <view class="alert-text">获得你的公开信息（昵称、头像等）</view>
+          </view>
+        </view>
+        <button class="weui-btn" type="primary" bindtap="getUserInfo">确认登录</button>
+      </view>
+      <!-- <view class="logged" wx:else>
+        <image class="logged-icon" src="../../assets/images/iconfont-weixin.png" />
+        <view class="logged-text">近期你已经授权登录过</view>
+        <view class="logged-text">自动登录中</view>
+      </view> -->
+    </view>
+  </swiper-item>
+</swiper>

@@ -1,0 +1,57 @@
+/* pages/ringing/ringing.wxss */
+.content{
+  height: 100%;
+}
+.content .background {
+  width: 100%;
+  height: 100%;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
+}
+
+.font_background{
+margin-left:20%;
+/* top: 20%; */
+display: flex;
+position: absolute;
+height: 30%;
+width:60%;
+}
+
+.font_background2{
+width: 100%;
+height: 45%;
+/* margin-left: -40px;
+margin-top: -50px; */
+top: 25%;
+position: absolute;
+z-index: -1;
+display: flex;
+justify-content: center;
+}
+/* .content{
+color: brown;
+margin-left:px;
+display: block;
+} */
+.say{
+  display: flex;
+  position: absolute;
+  color:black;
+  left: 35%;
+  top: 45%;
+  font-weight: 700;
+  z-index: 2;
+  /* bottom:80px; */
+}
+.font_background3{
+  display: flex;
+  position: absolute;
+  margin-left: 35%;
+  width:30%;
+  height: 20%;
+  top: 70%;
+  justify-content: center;
+}
+

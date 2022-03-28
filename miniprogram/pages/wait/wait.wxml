@@ -1,0 +1,5 @@
+<view class="bg">
+  <cover-image class="wait_bg" src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/wait/wait_bg.png?sign=01f6142e379c1dc70cfeeb22dcff3ddf&t=1639211165"></cover-image>
+  <cover-image class="gif" src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/wait/dingling.gif?sign=bce4ba4f03bf8b018f26a57374a143ec&t=1639211185"></cover-image>
+  <text class="search">正在为您搜寻，请稍后~</text>
+</view>

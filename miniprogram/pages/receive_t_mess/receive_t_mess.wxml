@@ -1,0 +1,18 @@
+<view class="top">
+  <image src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/receive_t/receive_bg01.png?sign=e18e2bb67f157714fe02f1eafba0b35b&t=1639211364" class="receive_bg01" style="height: 560rpx;width: 660rpx;"></image>
+</view>
+<view class="textarea-count">
+  <view class="user_item">
+    <cover-image src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/receive_t/user_icon.jpg?sign=86658989e381dcf6a09cabcb0d60a90b&t=1639211347" class="user_icon"></cover-image>
+    <text class="user_name">吕蓉蓉</text>
+    <cover-image bindtap="gotoChat" src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/receive_t_mess/eyes.png?sign=080d3b4197ab7768032e0e3cbda1de3b&t=1639742411" class="user_look"></cover-image>
+    <text class="user_date">2021-12-10</text>
+  </view>
+  <textarea placeholder='你好啊！能和你认识一下吗？' bindinput="getWords" maxlength='{{maxTextLen}}' class="a"></textarea>
+</view>
+<!-- <view class='textarea-count' > -->
+<!-- <textarea placeholder='你好啊！能和你认识一下吗？' bindinput="getWords" maxlength='{{maxTextLen}}' class="a"></textarea> -->
+<!-- <view class='text-count-display f f-end'>{{textLen}}/{{maxTextLen}}</view> -->
+<!-- </view> -->
+<button class='btn1' style="width: 25%;" bindtap="closeToreceive_t" open-type="switchTab">关闭</button>
+<button class='btn2' style="width: 25%;" bindtap="goToreceive_t">回复</button>

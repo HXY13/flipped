@@ -1,0 +1,115 @@
+/* pages/reply/reply.wxss */
+.font_background{
+  position: relative;
+  width: 100%;
+}
+.view-contain-ti {
+  /* top:-10px; */
+  /* display: flex; */
+  height: 40px;
+  margin: 20px;
+  border: 3rpx solid #faca82;
+  border-radius: 10rpx;
+
+
+  margin-top: 10px;
+}
+
+.text-ti {
+  position: absolute;
+  font-size: 12px;
+  background: white;
+  margin: -10px 0 0 10px;
+  padding: 0 5px;
+  color: rgb(144, 147, 167);
+}
+
+.input1 {
+  margin:  auto 10px;
+}
+
+/* @import "style.wxss"; */
+
+
+.f{
+display: flex;
+position: relative;
+}
+
+.f-end{
+justify-content: flex-end;
+position: relative;
+}
+
+.text-count-display{
+padding: 2%;
+position: relative;
+
+}
+
+.textarea-count {
+border: 1px solid #ddd;
+border-radius: 5px;
+background-color: black;
+width:660rpx;
+position: relative;
+right: -40rpx;
+border-radius: 50px;
+top: 70rpx;
+}
+
+.textarea-count textarea{
+width: 100%;
+}
+
+.reply{
+color:orange;
+margin-top: 30px;
+}
+
+.saveBtn { 
+width: 50% !important; 
+float:left;
+font-weight: 100;
+}
+.submitBtn { 
+width: 50% !important;
+float:right;
+}
+.s_view{
+bottom: 290rpx; 
+position: fixed;
+width: 100%;
+}
+
+.btn1 {
+  background: #D81E06; 
+  margin-top: 20rpx;
+  border-radius: 30rpx;
+  color: white;
+  float: left;
+  left: 15%;
+  /* height: 70rpx; */
+  /* width: 10%; */
+  /* height: 2%;
+  width: 2%; */
+  margin-top: 70rpx;
+  top: 80rpx;
+}
+.btn2 {
+  background: #F7D808; 
+  color: white;
+  /* margin-top: 30rpx; */
+  top: 60rpx;
+  border-radius: 30rpx;
+  float: right;
+  right: 15%;
+  /* height: 2%;
+  width: 2%; */
+  margin-top: 80rpx;
+}
+.a{
+color: white;
+left: 65rpx;
+top: 50rpx;
+}

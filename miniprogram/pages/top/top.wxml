@@ -1,0 +1,60 @@
+<view class="content">
+  <view class="bg_rk">
+	  <!--pics文件夹下的background.jpg文件-->
+	  <image class='background' src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/rank/rank_bg.jpg?sign=55deff6b57c7e0487b32b8a38479bb68&t=1639356386" mode="aspectFill"></image>
+  </view>
+  <view class="middle_rk">
+    <!--页面其它部分--> 
+    <view class="top_title"> 为您寻找到与您最适合的心灵伴侣\n</view>
+    <view class="top_top"> Top-3</view>
+
+    <view class="one">
+      <image src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/rank/background.png?sign=1c81770b00e87e6e267f2a2249b989fe&t=1639367255" class='item1_bg'></image>
+      <image src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/rank/icon1.jpg?sign=7f8272df3227b6fd6d0468b3c4612235&t=1639742250" class='item1_icon'></image>
+      <image src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/rank/crown.png?sign=8a0a0c93b0ab05d7ec542a5fc07a202e&t=1639378096" class="item1_crown"></image>
+      <view class="one_middle">
+        <view class="item1_name">Pluto</view>
+        <button class="item1_info" bindtap="toshowinfo1">查看个人信息</button>
+        <!-- <button class="item1_info">查看个人信息</button> -->
+      </view>
+      <view class="bell_ll">
+        <image src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/rank/bell_r.png?sign=e574f9b0ed302c52de308f1a1ccf50ce&t=1639378118" class="bell_r"></image>
+        <view class="bell_rtext" bindtap="bell_ding1">响铃</view>
+      </view>
+      
+    </view>
+
+    <view class="two">
+      <image src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/rank/background.png?sign=1c81770b00e87e6e267f2a2249b989fe&t=1639367255" class='item2_bg'></image>
+      <image src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/rank/icon2.jpg?sign=28c0fd8c5a1d1338b124d35ed98ab65b&t=1639742302" class='item2_icon'></image>
+      <view class="two_middle">
+        <view class="item2_name">komorebi</view>
+        <button class="item2_info" bindtap="toshowinfo2">查看个人信息</button>
+        <!-- <button class="item2_info">查看个人信息</button> -->
+      </view>
+      <view class="bell_ll">
+        <image src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/rank/bell_r.png?sign=e574f9b0ed302c52de308f1a1ccf50ce&t=1639378118" class="bell_r"></image>
+        <view class="bell_rtext" bindtap="bell_ding2">响铃</view>
+      </view>
+    </view>
+
+    <view class='three'>
+      <image src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/rank/background.png?sign=1c81770b00e87e6e267f2a2249b989fe&t=1639367255" class='item3_bg'></image>
+      <image src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/rank/icon3.jpg?sign=5866bbf861e91a4d6a55668a0fea8a7e&t=1639742320" class='item3_icon'></image>
+      <view class="three_middle">
+        <view class="item3_name">W</view>
+        <button class="item3_info" bindtap="toshowinfo3">查看个人信息</button>
+        <!-- <button class="item3_info">查看个人信息</button> -->
+      </view>
+      <view class="bell_ll">
+        <image src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/rank/bell_r.png?sign=e574f9b0ed302c52de308f1a1ccf50ce&t=1639378118" class="bell_r"></image>
+        <view class="bell_rtext" bindtap="bell_ding3">响铃</view>
+      </view>
+    </view>
+
+    </view>
+
+  </view>
+
+
+

@@ -57,6 +57,103 @@
         {
           "name": "pages/updateRecordSuccess/index",
           "pathName": "pages/updateRecordSuccess/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "my",
+          "pathName": "pages/my/my",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "receive_t",
+          "pathName": "pages/receive_t/receive_t",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "receive_n",
+          "pathName": "pages/receive_n/receive_n",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "wait",
+          "pathName": "pages/wait/wait",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "about",
+          "pathName": "pages/about/about",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "swiper",
+          "pathName": "pages/swiper/swiper",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "top",
+          "pathName": "pages/top/top",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "infoin",
+          "pathName": "pages/infoin/infoin",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "showinfo",
+          "pathName": "pages/showinfo/showinfo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "ringing",
+          "pathName": "pages/ringing/ringing",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "hobby",
+          "pathName": "pages/hobby/hobby",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "reply",
+          "pathName": "pages/reply/reply",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "receive_t_mess",
+          "pathName": "pages/receive_t_mess/receive_t_mess",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "info2",
+          "pathName": "pages/info2/info2",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "scroll",
+          "pathName": "pages/scroll/scroll",
+          "query": "",
           "scene": null
         }
       ]

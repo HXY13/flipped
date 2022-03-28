@@ -1,5 +1,6 @@
 {
-  "usingComponents": {
-    "cloud-tip-modal": "/components/cloudTipModal/index"
-  }
+  "navigationBarBackgroundColor": "#000",
+  "navigationBarTitleText": "首 页",
+  "navigationBarTextStyle": "white",
+  "disableScroll": true
 }

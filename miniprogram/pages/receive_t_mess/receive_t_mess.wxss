@@ -1,0 +1,132 @@
+page{
+  height: 100%;
+  background-color: white;
+}
+/* .top{
+  height: 50%;
+} */
+.receive_bg01{
+  width: 100%;
+  margin-left: 50rpx;
+}
+/* .bottom{ */
+  /* height: 100%; */
+/* } */
+.bottom .user_item{
+  position:absolute;
+  display: flex;
+  /* z-index: 2; */
+  top:  37%;
+  padding: 0rpx 10%;
+  height: 12%;
+  width: 60%;
+}
+.user_item .user_info{
+  display: flex;
+  position: absolute;
+  /* z-index: 2; */
+  /* padding: auto; */
+}
+.user_item .user_icon{
+  width: 15%;
+  height: 20%;
+  display: flex;
+  position: absolute;
+  z-index: 2;
+  top: 10%;
+  padding-left: 10%;
+}
+.user_item .user_name{
+  /* display: flex; */
+  position: absolute;
+  z-index: 2;
+  top: 17%;
+  color:white;
+  padding-left: 30%;
+}
+.user_look{
+  position: absolute;
+  z-index: 2;
+  width: 12%;
+  height: 16%;
+  top: 13%;
+  padding-right: 5%;
+  padding-left: 75%;
+}
+.user_item .user_date{
+  /* display: flex; */
+  position: absolute;
+  z-index: 2;
+  top: 200%;
+  width: 100%;
+  padding-left: 73%;
+  font-size: 10px;
+  color:white;
+}
+.textarea-count {
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  background-color: black;
+  display: flex;
+  width:590rpx;
+  position:relative;
+  right: -79rpx;
+  border-radius: 50px;
+  top: 5rpx;
+  height: 460rpx;
+}
+.textarea-count textarea{
+  width: 100%;
+}
+
+.reply{
+  color:orange;
+  margin-top: 30px;
+}
+
+.saveBtn { 
+  width: 50% !important; 
+  float:left;
+  font-weight: 100;
+ }
+ .submitBtn { 
+  width: 50% !important;
+  float:right;
+ }
+.s_view{
+  bottom: 290rpx; 
+  position: fixed;
+  width: 100%;
+}
+.btn1 {
+  background: #D81E06;
+  /* margin-top: 20px; */
+  border-radius: 30rpx;
+  color: white;
+  float: left;
+  left: 17%;
+  /* height: 70rpx; */
+  /* width: 10%; */
+  /* height: 2%;
+  width: 2%; */
+  margin-top: 80rpx;
+  /* top: 80rpx; */
+}
+.btn2 {
+  background: #0500D9;
+  color: white;
+  /* margin-top: 30rpx; */
+  /* margin-top: 280rpx; */
+  /* top: 80rpx; */
+  border-radius: 30rpx;
+  float: right;
+  right: 17%;
+  /* height: 2%;
+  width: 2%; */
+  margin-top:-71rpx;
+}
+.a{
+  color: white;
+  left: 100rpx;
+  top: 230rpx;
+}

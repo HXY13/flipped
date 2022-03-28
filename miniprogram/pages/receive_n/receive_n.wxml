@@ -1,0 +1,4 @@
+<view class="top">
+  <view class="mess">您还没有接收到任何响铃哦~</view>
+  <cover-image src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/receive_t/receive_bg01.png?sign=e18e2bb67f157714fe02f1eafba0b35b&t=1639211364" class="receive_bg01"></cover-image>
+</view>

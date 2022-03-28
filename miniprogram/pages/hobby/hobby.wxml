@@ -1,0 +1,24 @@
+<view class="content">
+	<image class='background' src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/infoin/info_bg.png?sign=43cc7ede264146fddc5b07f57bf77f15&t=1639626056"></image>
+  <image class="top_bg" src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/infoin/info_logo.png?sign=49e2aa585549f2e2d3a54b99b8ef0ee5&t=1639626068"></image>
+  <view class="login-container">
+    <view class="title">请选择您感兴趣的</view>
+    <view class="subtitle">freedom</view>
+   
+    <view class="black">  
+    <image src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/hobby/blackpg.png?sign=8a1314207dda4f0fbb590b8edc73aa37&t=1639642626" style="height: 1800rpx;width: 100%;"></image>
+    </view>
+
+    <view class="check">
+  <checkbox-group bindchange="HandelItemChange">
+    <checkbox class="checkbox" value="{{item.value}}" wx:for="{{list}}" wx:key="id">
+      {{item.name}}
+    </checkbox>
+  </checkbox-group>
+
+</view>
+<button class='btn1' style="width: 35%;" bindtap="closeToinfoin">关闭</button>
+<button class='btn2' style="width: 35%;" bindtap="closeToinfoin">提交</button>
+
+  </view>
+</view>

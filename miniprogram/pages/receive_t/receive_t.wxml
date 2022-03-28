@@ -1,0 +1,12 @@
+<view class="top">
+  <image src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/receive_t/receive_bg01.png?sign=e18e2bb67f157714fe02f1eafba0b35b&t=1639211364" class="receive_bg01"></image>
+</view>
+<view class="bottom">
+  <view class="user_item" bindtap="goToreceive_t_mess">
+    <cover-image src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/receive_t/user_bg.png?sign=8178b2ed2fc8445215a35bc045421cf1&t=1639211291" class="user_info"></cover-image>
+    <cover-image src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/receive_t/user_icon.jpg?sign=86658989e381dcf6a09cabcb0d60a90b&t=1639211347" class="user_icon"></cover-image>
+    <text class="user_name">吕蓉蓉</text>
+    <cover-image bindtap="gotoChat" src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/receive_t/look.png?sign=b2fc7bf0765a9b9f6a64a4e00fd4d3a9&t=1639211376" class="user_look"></cover-image>
+    <text class="user_date">2021-12-10</text>
+  </view>
+</view>

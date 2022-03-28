@@ -1,0 +1,26 @@
+<!--pages/search2/search2.wxml-->
+<!-- <text>pages/search2/search2.wxml</text> -->
+<view class="content">
+	<!--pics文件夹下的background.jpg文件-->
+	<image class='background' src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/rank/rank_bg.jpg?sign=55deff6b57c7e0487b32b8a38479bb68&t=1639356386"></image>
+	<!--页面其它部分-->
+</view>
+
+<view>
+<image class="info_bg" src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/showinfo/bg3.png?sign=78ce77586cac7fb8ae39dff62c73b455&t=1639625900" style="height: 1000rpx;width: 700rpx;"></image>
+</view>
+
+
+<view class="info-box"  mode="widthFix">
+   <view style="text-align: center;margin-bottom:10%;">
+     <image class="avatar-img" src="https://636c-cloud1-2gic3h5e69c16e30-1308351239.tcb.qcloud.la/flipped/rank/icon3.jpg?sign=5866bbf861e91a4d6a55668a0fea8a7e&t=1639742320{{avatarUrl}}" />
+   </view>
+   <!-- <text>年龄：21</text> -->
+   <!-- <text>性别：男</text> -->
+   <text>性别：女{{gender}}</text>
+   <text>年龄：22{{nickName}}</text>
+   <text>星座：巨蟹座{{}}</text>
+   <!-- <text>星座： 金牛座{{country}}</text> -->
+   <!-- <text>兴趣爱好：篮球，游泳</text> -->
+   <text>兴趣爱好： 音乐，电影{{province}}</text>
+ </view>

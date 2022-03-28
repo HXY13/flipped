@@ -3,7 +3,20 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/my/my",
-    "pages/welcome/welcome"
+    "pages/receive_n/receive_n",
+    "pages/receive_t/receive_t",
+    "pages/wait/wait",
+    "pages/about/about",
+    "pages/swiper/swiper",
+    "pages/top/top",
+    "pages/infoin/infoin",
+    "pages/info2/info2",
+    "pages/showinfo/showinfo",
+    "pages/ringing/ringing",
+    "pages/hobby/hobby",
+    "pages/reply/reply",
+    "pages/receive_t_mess/receive_t_mess",
+    "pages/scroll/scroll"
    
   ],
   "window": {
@@ -14,5 +27,27 @@
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json",
-  "style": "v2"
+  "style": "v2",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "pages/images/diqiu.png",
+        "selectedIconPath": "pages/images/diqiu_selected.png"
+      },
+      {
+        "pagePath": "pages/receive_t/receive_t",
+        "iconPath": "pages/images/bell_d.png",
+        "selectedIconPath": "pages/images/bell_dselected.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "pages/images/my.png",
+        "selectedIconPath": "pages/images/my_selected.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10
+  }
 }

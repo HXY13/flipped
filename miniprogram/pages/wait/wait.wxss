@@ -1,0 +1,31 @@
+page{
+  height: 100%;
+}
+.bg{
+  height: 100%;
+}
+.bg .wait_bg{
+  height: 100%;
+  display: flex;
+  position: absolute;
+  z-index: 2;
+}
+.gif{
+  display: flex;
+  position: relative;
+  z-index: 2;
+  width: 30%;
+  height: 17%;
+  top: 27%;
+  padding-left: 35%;
+  justify-content: center;
+}
+.search{
+  color: white;
+  font-size: 20px;
+  display: flex;
+  position: relative;
+  z-index: 2;
+  justify-content: center;
+  top: 30%;
+}
